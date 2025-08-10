@@ -11,8 +11,8 @@ Before working on any ML project, it is important that you have proper virtual e
 >> git clone git@github.com:madhavchekka/ML-PlayGround.git
 
 # Create venv 
->> cd ML-PlayGround
->> uv sync 
+>> cd ML-PlayGround  
+>> uv sync   
 
 # Optional Step: 
 # Upgrade all packages if needed. They apply to the environment
@@ -21,5 +21,6 @@ Before working on any ML project, it is important that you have proper virtual e
 
 # Launch Jupyter notebook and start working 
 >> uv run jupyter notebook
+
 
 
