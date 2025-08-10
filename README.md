@@ -2,23 +2,24 @@ Before working on any ML project, it is important that you have proper virtual e
 
 # Run the following commands in Terminal
 # Install uv using homebrew 
->> brew install uv 
+>> brew install uv
 
 # Create a new project folder
-mkdir MLWorkSpace 
+>> mkdir MLWorkSpace 
 
-# Clone this repo: 
-git clone git@github.com:madhavchekka/ML-PlayGround.git
+# Clone this repo (If you do not have git, install git first): 
+>> git clone git@github.com:madhavchekka/ML-PlayGround.git
 
 # Create venv 
-cd ML-PlayGround
-uv sync 
+>> cd ML-PlayGround
+>> uv sync 
 
 # Optional Step: 
 # Upgrade all packages if needed. They apply to the environment
-uv lock --upgrade 
-uv sync 
+>> uv lock --upgrade 
+>> uv sync 
 
 # Launch Jupyter notebook and start working 
-uv run jupyter notebook
+>> uv run jupyter notebook
+
 
