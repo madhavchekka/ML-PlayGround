@@ -1,7 +1,8 @@
 Before working on any ML project, it is important that you have proper virtual environment set up with necessary packages. Setting up the environment from scratch is cumbersome. Instead, you can clone this repo and start working on your ML project right away! Instructions provided are for Mac users.
 
+# Run the following commands in Terminal
 # Install uv using homebrew 
-brew install uv 
+>> brew install uv 
 
 # Create a new project folder
 mkdir MLWorkSpace 
@@ -20,3 +21,4 @@ uv sync
 
 # Launch Jupyter notebook and start working 
 uv run jupyter notebook
+
