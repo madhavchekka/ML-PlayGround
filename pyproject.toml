@@ -1,0 +1,24 @@
+[project]
+name = "mlplayground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "catboost>=1.2.8",
+    "duckdb>=1.3.2",
+    "ipykernel>=6.30.0",
+    "joblib>=1.5.1",
+    "jupyter>=1.1.1",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.5",
+    "mlxtend>=0.23.4",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "polars>=1.32.2",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.16.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.5",
+    "xgboost>=3.0.3",
+]
