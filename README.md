@@ -16,11 +16,12 @@ Before working on any ML project, it is important that you have proper virtual e
 
 # Optional Step: 
 # Upgrade all packages if needed. They apply to the environment
->> uv lock --upgrade 
->> uv sync 
+>> uv lock --upgrade   
+>> uv sync   
 
 # Launch Jupyter notebook and start working 
 >> uv run jupyter notebook
+
 
 
 
